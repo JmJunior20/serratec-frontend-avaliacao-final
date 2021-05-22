@@ -15,25 +15,47 @@
         <header>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="./index.html">Logo</a>
           
             <!-- Links -->
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Início</a>
+                <a class="nav-link" href="./index.html">Início</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre nos</a>
+                <a class="nav-link" href="./sobre.html">Sobre nos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="./contato.html">Contato</a>
               </li>
             </ul>
           </nav>
         </header>
 
         <div class="container">
+            <div class="contato">
+                <h1>CONTATO</h1>
 
+                <form action="/action_page.php">
+                    <div class="form-group">
+                      <label for="nome">Nome</label>
+                      <input type="nome" class="form-control" placeholder="Insira seu nome" id="nome">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" placeholder="exemplo@exemplo.com" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" class="form-control" placeholder="(00)00000000" id="telefone">
+                    </div>
+                    <div class="form-group">
+                        <label for="endereco">Endereço</label>
+                        <input type="endereco" class="form-control" placeholder="Insira o seu endereço" id="endereco">
+                    </div>                
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
 
             <footer class="rodape">
                 <p>Turma dos feras - Serratec | By <a href="https://www.linkedin.com/in/jmjuniordeveloper/" target="_blank">Jose Milton Junior</a></p>

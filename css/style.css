@@ -1,14 +1,15 @@
+/* Página principal */
 .navbar {
     padding-left: 5%;
 }
 
 .container {
     width: 70%;
+    padding-top: 50px;
 }
 
 .texto {
     text-align: center;
-    padding-top: 50px;
 }
 
 .row {
@@ -36,3 +37,20 @@ a:active {
     color: black;
 }
 
+/* Sobre */
+.texto-sobre {
+    padding-bottom: 50px;
+}
+
+.sobre p {
+    text-align: left;
+}
+
+.sobre .row {
+    padding-top: 0px;
+}
+
+/* Conato */
+.contato h1{
+    text-align: center;
+}
