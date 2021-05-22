@@ -1,25 +1,61 @@
-/* Página principal */
-.navbar {
-    padding-left: 5%;
+.cabecalho {
+    background-color: black;
+    padding-left: 50px;
 }
 
-.container {
-    width: 70%;
-    padding-top: 50px;
+.logo {
+    padding-right: 20px;
 }
 
-.texto {
+.texto-index {
+    text-align: center;
+    padding: 50px;
+}
+
+.texto-index .container {
+    max-width: 70%;
+}
+
+.imagem {
     text-align: center;
 }
 
-.row {
+.blog .container {
+    max-width: 80%;
+}
+
+/* Sobre */
+.sobre .container {
+    max-width: 85%;
+}
+
+.conteudo .container {
+    max-width: 85%;
+}
+
+.texto-sobre {
+    margin: 50px 0 70px 0;
+}
+
+.conteudo .row {
+    padding-bottom: 20px;
+}
+
+/* Conato */
+.contato .container {
     padding: 50px 0;
+    max-width: 50%;
+}
+
+.contato h1 {
     text-align: center;
 }
 
+
+/* Rodapé */
 .rodape {
- text-align: center;
- margin-top: 50px;
+    text-align: center;
+    margin-top: 80px;
 }
 
 a {
@@ -28,29 +64,11 @@ a {
 }
 
 a:hover {
-	text-decoration: none; 
-	color: black;
-}
-
-a:active {
-	text-decoration: none;
+    text-decoration: none; 
     color: black;
 }
 
-/* Sobre */
-.texto-sobre {
-    padding-bottom: 50px;
-}
-
-.sobre p {
-    text-align: left;
-}
-
-.sobre .row {
-    padding-top: 0px;
-}
-
-/* Conato */
-.contato h1{
-    text-align: center;
+a:active {
+    text-decoration: none;
+    color: black;
 }

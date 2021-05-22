@@ -6,71 +6,73 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Avaliação Final | Serratec</title>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         
-        <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <!-- Brand -->
-            <a class="navbar-brand" href="./index.html">Logo</a>
-          
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./sobre.html">Sobre nos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contato.html">Contato</a>
-              </li>
-            </ul>
-          </nav>
+        <header class="cabecalho">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <a class="navbar-brand logo" href="./index.html"><img src="images/logo-topo.png" alt="Logo"></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">                  
+                          <a class="nav-link" href="./index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./contato.html">Contato</a>
+                        </li>
+                      </ul>
+                
+                </div>
+            </nav>
         </header>
 
-        <div class="container">
-            <div class="contato">
+        <div class="contato">
+            <div class="container">
                 <h1>CONTATO</h1>
 
                 <form action="/action_page.php">
                     <div class="form-group">
                       <label for="nome">Nome</label>
-                      <input type="nome" class="form-control" placeholder="Insira seu nome" id="nome">
+                      <input type="nome" class="form-control" placeholder="Insira seu nome" id="nome" required>
                     </div>
                     <div class="form-group">
                       <label for="email">Email</label>
-                      <input type="email" class="form-control" placeholder="exemplo@exemplo.com" id="email">
+                      <input type="email" class="form-control" placeholder="exemplo@exemplo.com" id="email" required>
                     </div>
                     <div class="form-group">
                         <label for="telefone">Telefone</label>
-                        <input type="tel" class="form-control" placeholder="(00)00000000" id="telefone">
+                        <input type="tel" class="form-control" placeholder="(00)00000000" id="telefone" required>
                     </div>
                     <div class="form-group">
                         <label for="endereco">Endereço</label>
-                        <input type="endereco" class="form-control" placeholder="Insira o seu endereço" id="endereco">
+                        <input type="endereco" class="form-control" placeholder="Insira o seu endereço" id="endereco" required>
                     </div>                
                     <button type="submit" class="btn btn-primary">Enviar</button>
                   </form>
             </div>
-
-            <footer class="rodape">
-                <p>Turma dos feras - Serratec | By <a href="https://www.linkedin.com/in/jmjuniordeveloper/" target="_blank">Jose Milton Junior</a></p>
-            </footer>
-
         </div>
 
+        <footer class="rodape">
+            <div class="container">
+            <p>Turma dos feras Serratec | By <a href="https://www.linkedin.com/in/jmjuniordeveloper/" target="_blank">Jose Milton Junior</a>
+            </div>
+        </footer>
 
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     </body>
 </html>
