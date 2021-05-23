@@ -60,13 +60,12 @@
 /* Conato */
 .contato .container {
     padding: 50px 0;
-    max-width: 50%;
+    max-width: 80%;
 }
 
 .contato h1 {
     text-align: center;
 }
-
 
 /* Rodapé */
 .rodape {
