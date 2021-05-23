@@ -1,6 +1,3 @@
-# serratec-frontend-avaliacao-final
-Avaliação Final FrontEnd Essencial - Serratec
-
 <h1 align="center">
     Avaliação Final FrontEnd Essencial - Serratec
 </h1>
