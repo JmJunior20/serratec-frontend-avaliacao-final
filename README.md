@@ -14,9 +14,9 @@ Usando o conceito sobre CSS Flexbox e responsividade.
 </p>
 
 <p align="center">
-<img src="./images/imagem1.jpeg">
+<img src="./images/imagem1.jpg">
 
-<img src="./images/imagem2.jpeg">
+<img src="./images/imagem2.jpg">
 </p>
 
 <p align="center">
