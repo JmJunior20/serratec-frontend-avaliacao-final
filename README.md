@@ -1,32 +1,25 @@
-<h1 align="center">
-    Avaliação Final FrontEnd Essencial - Serratec
-</h1>
+# Hashtagadotei
 
-<p align="center">
-#Adotei - Site criado durante a avaliação final do módulo de FrontEnd Essencial da residencia de software do Serratec.
-</p>
+![preview](./.github/preview.png)
 
-<p align="center">
-Usando o conceito sobre CSS Flexbox e responsividade.
-</p>
+Projeto criado durante a avaliação final do módulo de FrontEnd Essencial da residencia de software do Serratec.
 
-<p align="center">
-<img src="./images/Imagem1.jpg">
-</p>
-<p align="center">
-<img src="./images/Imagem2.jpg">
-</p>
+[Cliquei aqui para acessar](https://hashtagadotei.netlify.app/)
 
-<p align="center">
-  <a href="https://hashtagadotei.netlify.app/" target="_blank">
-    <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png">
-  </a>
-</p>
+## 🛠️ Tecnologias
 
-### Ferramentas usadas: :rocket:
-
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Bootstrap
+- Git e Github
 
-Made By JmJunior :computer:
+## 🚀 O que aprendi
+- Aprendi sobre o conceito de CSS Flexbox e responsividade.
+
+## 🖤 Contato
+
+jmjuniormonteiro@gmail.com
+
+https://www.linkedin.com/in/jmjuniordeveloper/
+
+https://www.instagram.com/jmjuniordeveloper/
